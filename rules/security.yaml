@@ -1,0 +1,66 @@
+rules:
+  - id: lab-java-sql-injection
+    languages: [java]
+    mode: taint
+    severity: ERROR
+    message: Possible SQL injection found.
+    metadata:
+      cwe: CWE-89
+    paths:
+      include: ["**/src/main/java/**"]
+    pattern-sources:
+      - patterns:
+          - pattern: (HttpServletRequest $REQUEST).$METHOD(...)
+          - metavariable-regex:
+              metavariable: $METHOD
+              regex: ^get(?:Parameter|Header|QueryString|PathInfo)$
+        exact: true
+    pattern-sanitizers:
+      - pattern: Long.parseLong(...)
+        exact: true
+      - pattern: Integer.parseInt(...)
+        exact: true
+    pattern-sinks:
+      - patterns:
+          - pattern: (JdbcTemplate $DB).$METHOD($SQL, ...)
+          - metavariable-regex:
+              metavariable: $METHOD
+              regex: ^(?:queryForList|queryForObject|query|update|execute)$
+          - focus-metavariable: $SQL
+    options:
+      taint_assume_safe_numbers: true
+
+  - id: lab-java-hardcoded-credentials
+    languages: [java]
+    mode: taint
+    severity: WARNING
+    message: Possible hardcoded password or key found.
+    metadata:
+      cwe: CWE-798
+    paths:
+      include: ["**/src/main/java/**"]
+    pattern-sources:
+      - pattern: '"$LITERAL"'
+        exact: true
+    pattern-sanitizers:
+      - pattern: System.getenv(...)
+        exact: true
+    pattern-sinks:
+      - patterns:
+          - pattern: $OBJECT.$METHOD($VALUE)
+          - metavariable-regex:
+              metavariable: $METHOD
+              regex: (?i)^(?:set|with)?(?:password|secret|apiKey|accessToken|refreshToken)$
+          - focus-metavariable: $VALUE
+      - patterns:
+          - pattern: $OBJECT.$METHOD($KEY, $VALUE)
+          - metavariable-regex:
+              metavariable: $METHOD
+              regex: ^(?:header|setHeader|setProperty)$
+          - metavariable-regex:
+              metavariable: $KEY
+              regex: (?i)^"(?:password|secret|api[_-]?key|authorization|x-api-key|access[_-]?token)"$
+          - focus-metavariable: $VALUE
+      - patterns:
+          - pattern: new PasswordAuthentication($USER, $VALUE)
+          - focus-metavariable: $VALUE

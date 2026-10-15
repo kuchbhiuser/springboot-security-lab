@@ -1,0 +1,63 @@
+RuleID,File Path,Start Line,End Line,Message
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/customer/CustomerPartnerClient.java,24,24,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/customer/CustomerPartnerClient.java,30,30,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/customer/CustomerPartnerClient.java,35,35,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/customer/CustomerPartnerClient.java,41,41,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/customer/CustomerPartnerClient.java,51,51,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/customer/CustomerPartnerClient.java,56,56,Possible hardcoded password or key found.
+lab-java-sql-injection,src/main/java/com/example/lab/customer/CustomerService.java,27,27,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/customer/CustomerService.java,32,32,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/customer/CustomerService.java,38,38,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/customer/CustomerService.java,44,44,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/customer/CustomerService.java,57,57,Possible SQL injection found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/inventory/InventoryPartnerClient.java,15,15,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/inventory/InventoryPartnerClient.java,20,20,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/inventory/InventoryPartnerClient.java,31,31,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/inventory/InventoryPartnerClient.java,37,37,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/inventory/InventoryPartnerClient.java,47,47,Possible hardcoded password or key found.
+lab-java-sql-injection,src/main/java/com/example/lab/inventory/InventoryService.java,22,22,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/inventory/InventoryService.java,33,33,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/inventory/InventoryService.java,39,39,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/inventory/InventoryService.java,45,45,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/inventory/InventoryService.java,58,58,Possible SQL injection found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/invoice/InvoicePartnerClient.java,15,15,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/invoice/InvoicePartnerClient.java,20,20,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/invoice/InvoicePartnerClient.java,26,26,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/invoice/InvoicePartnerClient.java,31,31,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/invoice/InvoicePartnerClient.java,47,47,Possible hardcoded password or key found.
+lab-java-sql-injection,src/main/java/com/example/lab/invoice/InvoiceService.java,22,22,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/invoice/InvoiceService.java,28,28,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/invoice/InvoiceService.java,33,33,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/invoice/InvoiceService.java,39,39,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/invoice/InvoiceService.java,58,58,Possible SQL injection found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/order/OrderPartnerClient.java,15,15,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/order/OrderPartnerClient.java,26,26,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/order/OrderPartnerClient.java,31,31,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/order/OrderPartnerClient.java,37,37,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/order/OrderPartnerClient.java,47,47,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/order/OrderPartnerClient.java,52,52,Possible hardcoded password or key found.
+lab-java-sql-injection,src/main/java/com/example/lab/order/OrderService.java,23,23,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/order/OrderService.java,29,29,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/order/OrderService.java,34,34,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/order/OrderService.java,40,40,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/order/OrderService.java,60,60,Possible SQL injection found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/shipment/ShipmentPartnerClient.java,15,15,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/shipment/ShipmentPartnerClient.java,20,20,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/shipment/ShipmentPartnerClient.java,26,26,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/shipment/ShipmentPartnerClient.java,31,31,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/shipment/ShipmentPartnerClient.java,47,47,Possible hardcoded password or key found.
+lab-java-sql-injection,src/main/java/com/example/lab/shipment/ShipmentService.java,22,22,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/shipment/ShipmentService.java,28,28,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/shipment/ShipmentService.java,33,33,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/shipment/ShipmentService.java,39,39,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/shipment/ShipmentService.java,58,58,Possible SQL injection found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/support/SupportPartnerClient.java,15,15,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/support/SupportPartnerClient.java,20,20,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/support/SupportPartnerClient.java,26,26,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/support/SupportPartnerClient.java,31,31,Possible hardcoded password or key found.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/support/SupportPartnerClient.java,47,47,Possible hardcoded password or key found.
+lab-java-sql-injection,src/main/java/com/example/lab/support/SupportService.java,22,22,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/support/SupportService.java,28,28,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/support/SupportService.java,33,33,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/support/SupportService.java,39,39,Possible SQL injection found.
+lab-java-sql-injection,src/main/java/com/example/lab/support/SupportService.java,58,58,Possible SQL injection found.

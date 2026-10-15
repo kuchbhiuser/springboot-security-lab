@@ -1,0 +1,17 @@
+Initial Semgrep analysis — manual verdicts pending
+
+Rule A: lab-java-sql-injection
+  Total findings: 30
+  True positives: pending your Excel review
+  False positives: pending your Excel review
+
+Rule B: lab-java-hardcoded-credentials
+  Total findings: 32
+  True positives: pending your Excel review
+  False positives: pending your Excel review
+
+Total alerts: 62. Semgrep 1.180.0 Community Edition. Scan errors: 0.
+These totals are from the actual CLI run, exported by tools/scan_semgrep.py.
+After you add Verdict and Reason to a copy of findings.csv, run:
+  python tools/summarize_review.py reports/reviewed.csv
+Step 3 has intentionally been left to you. No TP/FP decisions were prefilled.

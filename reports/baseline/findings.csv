@@ -1,0 +1,69 @@
+RuleID,File Path,Start Line,End Line,Message
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/customer/CustomerPartnerClient.java,15,15,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/customer/CustomerPartnerClient.java,20,20,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/customer/CustomerPartnerClient.java,26,26,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/customer/CustomerPartnerClient.java,31,31,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/customer/CustomerPartnerClient.java,37,37,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/customer/CustomerPartnerClient.java,47,47,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/customer/CustomerPartnerClient.java,52,52,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-sql-injection,src/main/java/com/example/lab/customer/CustomerService.java,22,22,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/customer/CustomerService.java,28,28,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/customer/CustomerService.java,33,33,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/customer/CustomerService.java,39,39,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/customer/CustomerService.java,45,45,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/customer/CustomerService.java,58,58,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/inventory/InventoryPartnerClient.java,15,15,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/inventory/InventoryPartnerClient.java,20,20,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/inventory/InventoryPartnerClient.java,26,26,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/inventory/InventoryPartnerClient.java,31,31,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/inventory/InventoryPartnerClient.java,37,37,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/inventory/InventoryPartnerClient.java,47,47,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-sql-injection,src/main/java/com/example/lab/inventory/InventoryService.java,22,22,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/inventory/InventoryService.java,28,28,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/inventory/InventoryService.java,33,33,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/inventory/InventoryService.java,39,39,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/inventory/InventoryService.java,45,45,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/inventory/InventoryService.java,58,58,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/invoice/InvoicePartnerClient.java,15,15,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/invoice/InvoicePartnerClient.java,20,20,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/invoice/InvoicePartnerClient.java,26,26,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/invoice/InvoicePartnerClient.java,31,31,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/invoice/InvoicePartnerClient.java,47,47,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-sql-injection,src/main/java/com/example/lab/invoice/InvoiceService.java,22,22,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/invoice/InvoiceService.java,28,28,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/invoice/InvoiceService.java,33,33,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/invoice/InvoiceService.java,39,39,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/invoice/InvoiceService.java,58,58,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/order/OrderPartnerClient.java,15,15,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/order/OrderPartnerClient.java,20,20,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/order/OrderPartnerClient.java,26,26,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/order/OrderPartnerClient.java,31,31,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/order/OrderPartnerClient.java,37,37,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/order/OrderPartnerClient.java,47,47,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/order/OrderPartnerClient.java,52,52,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-sql-injection,src/main/java/com/example/lab/order/OrderService.java,22,22,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/order/OrderService.java,28,28,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/order/OrderService.java,33,33,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/order/OrderService.java,39,39,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/order/OrderService.java,45,45,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/order/OrderService.java,58,58,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/shipment/ShipmentPartnerClient.java,15,15,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/shipment/ShipmentPartnerClient.java,20,20,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/shipment/ShipmentPartnerClient.java,26,26,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/shipment/ShipmentPartnerClient.java,31,31,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/shipment/ShipmentPartnerClient.java,47,47,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-sql-injection,src/main/java/com/example/lab/shipment/ShipmentService.java,22,22,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/shipment/ShipmentService.java,28,28,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/shipment/ShipmentService.java,33,33,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/shipment/ShipmentService.java,39,39,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/shipment/ShipmentService.java,58,58,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/support/SupportPartnerClient.java,15,15,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/support/SupportPartnerClient.java,20,20,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/support/SupportPartnerClient.java,26,26,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/support/SupportPartnerClient.java,31,31,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-hardcoded-credentials,src/main/java/com/example/lab/support/SupportPartnerClient.java,47,47,A fixed string reaches a credential-like setting. Confirm this is an authentication secret rather than display text.
+lab-java-sql-injection,src/main/java/com/example/lab/support/SupportService.java,22,22,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/support/SupportService.java,28,28,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/support/SupportService.java,33,33,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/support/SupportService.java,39,39,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.
+lab-java-sql-injection,src/main/java/com/example/lab/support/SupportService.java,58,58,Request data reaches SQL text. Bind data as query parameters and allowlist SQL identifiers.

@@ -1,0 +1,482 @@
+[
+  {
+    "id": "SQL-01",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/customer/CustomerService.java",
+    "method": "lookup",
+    "expected": "vulnerable",
+    "coverageGap": "Spring @RequestParam value crosses controller/service boundary; source not modeled"
+  },
+  {
+    "id": "SQL-02",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/customer/CustomerService.java",
+    "method": "search",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-03",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/customer/CustomerService.java",
+    "method": "sort",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-04",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/customer/CustomerService.java",
+    "method": "updateNotes",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-05",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/customer/CustomerService.java",
+    "method": "report",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-01",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/customer/CustomerPartnerClient.java",
+    "method": "shipmentRequest",
+    "expected": "vulnerable",
+    "coverageGap": "Spring HttpHeaders.setBearerAuth and bulk headers not modeled"
+  },
+  {
+    "id": "CRED-02",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/customer/CustomerPartnerClient.java",
+    "method": "legacyLogin",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-03",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/customer/CustomerPartnerClient.java",
+    "method": "archiveConnection",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-04",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/customer/CustomerPartnerClient.java",
+    "method": "partnerConfiguration",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-05",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/customer/CustomerPartnerClient.java",
+    "method": "reconciliationRequest",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-06",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/order/OrderService.java",
+    "method": "lookup",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-07",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/order/OrderService.java",
+    "method": "search",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-08",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/order/OrderService.java",
+    "method": "sort",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-09",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/order/OrderService.java",
+    "method": "updateNotes",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-10",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/order/OrderService.java",
+    "method": "report",
+    "expected": "vulnerable",
+    "coverageGap": "NamedParameterJdbcTemplate sink not modeled"
+  },
+  {
+    "id": "CRED-06",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/order/OrderPartnerClient.java",
+    "method": "shipmentRequest",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-07",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/order/OrderPartnerClient.java",
+    "method": "legacyLogin",
+    "expected": "vulnerable",
+    "coverageGap": "Fixed char[] elements are not string-literal sources"
+  },
+  {
+    "id": "CRED-08",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/order/OrderPartnerClient.java",
+    "method": "archiveConnection",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-09",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/order/OrderPartnerClient.java",
+    "method": "partnerConfiguration",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-10",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/order/OrderPartnerClient.java",
+    "method": "reconciliationRequest",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-11",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/inventory/InventoryService.java",
+    "method": "lookup",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-12",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/inventory/InventoryService.java",
+    "method": "search",
+    "expected": "vulnerable",
+    "coverageGap": "getParameterMap source not modeled"
+  },
+  {
+    "id": "SQL-13",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/inventory/InventoryService.java",
+    "method": "sort",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-14",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/inventory/InventoryService.java",
+    "method": "updateNotes",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-15",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/inventory/InventoryService.java",
+    "method": "report",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-11",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/inventory/InventoryPartnerClient.java",
+    "method": "shipmentRequest",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-12",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/inventory/InventoryPartnerClient.java",
+    "method": "legacyLogin",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-13",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/inventory/InventoryPartnerClient.java",
+    "method": "archiveConnection",
+    "expected": "vulnerable",
+    "coverageGap": "Properties.put credential sink not modeled"
+  },
+  {
+    "id": "CRED-14",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/inventory/InventoryPartnerClient.java",
+    "method": "partnerConfiguration",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-15",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/inventory/InventoryPartnerClient.java",
+    "method": "reconciliationRequest",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-16",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/invoice/InvoiceService.java",
+    "method": "lookup",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-17",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/invoice/InvoiceService.java",
+    "method": "search",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-18",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/invoice/InvoiceService.java",
+    "method": "sort",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-19",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/invoice/InvoiceService.java",
+    "method": "updateNotes",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-20",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/invoice/InvoiceService.java",
+    "method": "report",
+    "expected": "vulnerable",
+    "coverageGap": "Cross-method flow through LegacyQueryGateway"
+  },
+  {
+    "id": "CRED-16",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/invoice/InvoicePartnerClient.java",
+    "method": "shipmentRequest",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-17",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/invoice/InvoicePartnerClient.java",
+    "method": "legacyLogin",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-18",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/invoice/InvoicePartnerClient.java",
+    "method": "archiveConnection",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-19",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/invoice/InvoicePartnerClient.java",
+    "method": "partnerConfiguration",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-20",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/invoice/InvoicePartnerClient.java",
+    "method": "reconciliationRequest",
+    "expected": "vulnerable",
+    "coverageGap": "Literal returned from a separate helper method"
+  },
+  {
+    "id": "SQL-21",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/shipment/ShipmentService.java",
+    "method": "lookup",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-22",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/shipment/ShipmentService.java",
+    "method": "search",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-23",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/shipment/ShipmentService.java",
+    "method": "sort",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-24",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/shipment/ShipmentService.java",
+    "method": "updateNotes",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-25",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/shipment/ShipmentService.java",
+    "method": "report",
+    "expected": "vulnerable",
+    "coverageGap": "Cross-method flow through LegacyQueryGateway"
+  },
+  {
+    "id": "CRED-21",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/shipment/ShipmentPartnerClient.java",
+    "method": "shipmentRequest",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-22",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/shipment/ShipmentPartnerClient.java",
+    "method": "legacyLogin",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-23",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/shipment/ShipmentPartnerClient.java",
+    "method": "archiveConnection",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-24",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/shipment/ShipmentPartnerClient.java",
+    "method": "partnerConfiguration",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-25",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/shipment/ShipmentPartnerClient.java",
+    "method": "reconciliationRequest",
+    "expected": "vulnerable",
+    "coverageGap": "Literal returned from a separate helper method"
+  },
+  {
+    "id": "SQL-26",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/support/SupportService.java",
+    "method": "lookup",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-27",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/support/SupportService.java",
+    "method": "search",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-28",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/support/SupportService.java",
+    "method": "sort",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-29",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/support/SupportService.java",
+    "method": "updateNotes",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "SQL-30",
+    "category": "SQL",
+    "file": "src/main/java/com/example/lab/support/SupportService.java",
+    "method": "report",
+    "expected": "vulnerable",
+    "coverageGap": "Cross-method flow through LegacyQueryGateway"
+  },
+  {
+    "id": "CRED-26",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/support/SupportPartnerClient.java",
+    "method": "shipmentRequest",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-27",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/support/SupportPartnerClient.java",
+    "method": "legacyLogin",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-28",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/support/SupportPartnerClient.java",
+    "method": "archiveConnection",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-29",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/support/SupportPartnerClient.java",
+    "method": "partnerConfiguration",
+    "expected": "vulnerable",
+    "coverageGap": null
+  },
+  {
+    "id": "CRED-30",
+    "category": "Credentials",
+    "file": "src/main/java/com/example/lab/support/SupportPartnerClient.java",
+    "method": "reconciliationRequest",
+    "expected": "vulnerable",
+    "coverageGap": "Literal returned from a separate helper method"
+  }
+]

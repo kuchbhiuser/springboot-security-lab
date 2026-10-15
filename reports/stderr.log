@@ -1,0 +1,21 @@
+               
+               
+┌─────────────┐
+│ Scan Status │
+└─────────────┘
+  Scanning 53 files with 2 Code rules:
+  Scanning 21 files with 2 java rules.
+                
+                
+┌──────────────┐
+│ Scan Summary │
+└──────────────┘
+✅ Scan completed successfully.
+ • Findings: 62 (62 blocking)
+ • Rules run: 2
+ • Targets scanned: 21
+ • Parsed lines: ~100.0%
+ • Scan skipped: 
+   ◦ Files matching .semgrepignore patterns: 1
+ • For a detailed list of skipped files and lines, run semgrep with the --verbose flag
+Ran 2 rules on 21 files: 62 findings.

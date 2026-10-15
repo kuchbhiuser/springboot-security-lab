@@ -1,0 +1,34 @@
+Coverage check against the seeded issue inventory (not a manual CSV verdict report)
+
+30 SQL injection issues and 30 credential issues are present in production Java.
+The executed Semgrep 1.180.0 Community scan misses these twelve seeded issues:
+
+SQL-01: CustomerController.lookup binds @RequestParam and passes it to the service.
+The rule only identifies HttpServletRequest getter sources, not Spring-bound values.
+SQL-10: OrderService.report concatenates SQL for NamedParameterJdbcTemplate.
+Its API name does not make concatenated SQL safe; the rule lacks this sink type.
+SQL-12: InventoryService.search reads getParameterMap(). The source regex omits it.
+
+CRED-01: CustomerPartnerClient.shipmentRequest uses Spring HttpHeaders.setBearerAuth
+and bulk request headers; these credential sinks are not modeled.
+CRED-07: OrderPartnerClient.legacyLogin builds a fixed char[] directly. String
+literal sources do not cover character literals, although the password is fixed.
+CRED-13: InventoryPartnerClient.archiveConnection uses Properties.put rather
+than setProperty; the credential sink method regex omits put.
+
+SQL-20: InvoiceService.report -> LegacyQueryGateway.fetch
+SQL-25: ShipmentService.report -> LegacyQueryGateway.fetch
+SQL-30: SupportService.report -> LegacyQueryGateway.fetch
+Request input crosses a method boundary before reaching JdbcTemplate. The SQL
+rule models intraprocedural dataflow and does not model that gateway as a sink.
+
+CRED-20: InvoicePartnerClient.reconciliationRequest -> legacyToken
+CRED-25: ShipmentPartnerClient.reconciliationRequest -> legacyToken
+CRED-30: SupportPartnerClient.reconciliationRequest -> legacyToken
+The literal is returned by a no-argument helper. The rule has no cross-method
+literal-return model, so the header value's origin is missed.
+
+All other seeded issue methods have at least one matching finding. The HTTP
+controllers reach each method, including integration-preview for partner setup.
+No suppression comments, disabled routes or scanner exclusions hide these issues.
+Do not treat this fixture inventory as a completed manual TP/FP review.

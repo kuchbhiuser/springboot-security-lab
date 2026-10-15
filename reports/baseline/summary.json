@@ -1,0 +1,8 @@
+{
+  "total": 68,
+  "count_per_rule": {
+    "lab-java-hardcoded-credentials": 35,
+    "lab-java-sql-injection": 33
+  },
+  "review": "pending"
+}
